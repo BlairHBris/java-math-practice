@@ -34,7 +34,7 @@ public class MathApp {
   }
   
   private static void random0To1() {
-
+    System.out.println(Math.random());
   }
   
 }
