@@ -4,7 +4,7 @@ public class MathApp {
     MathApp.minFinder(49, 50);
     MathApp.circleArea(7.25);
     MathApp.squareRoot(9);
-    MathApp.distanceFinder();
+    MathApp.distanceFinder(5, 10, 85, 50);
     MathApp.absoluteValue();
     MathApp.random0To1();
   }
@@ -27,8 +27,9 @@ public class MathApp {
     System.out.println(squareRoot);
   }
   
-  private static void distanceFinder() {
-
+  private static void distanceFinder(double x1, double y1, double x2, double y2) {
+    double distance = Math.hypot(x1-x2, y1-y2);
+    System.out.println(distance);
   }
   
   private static void absoluteValue() {
