@@ -3,7 +3,7 @@ public class MathApp {
     MathApp.maxFinder(50, 49);
     MathApp.minFinder(49, 50);
     MathApp.circleArea(7.25);
-    MathApp.squareRoot();
+    MathApp.squareRoot(9);
     MathApp.distanceFinder();
     MathApp.absoluteValue();
     MathApp.random0To1();
@@ -22,8 +22,9 @@ public class MathApp {
     System.out.println(area);
   }
 
-  private static void squareRoot() {
-
+  private static void squareRoot(double num1) {
+    double squareRoot = Math.sqrt(num1);
+    System.out.println(squareRoot);
   }
   
   private static void distanceFinder() {
