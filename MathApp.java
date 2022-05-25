@@ -1,11 +1,11 @@
 public class MathApp {
   public static void main(String[] args) {
-    MathApp.maxFinder(50, 49);
-    MathApp.minFinder(49, 50);
-    MathApp.circleArea(7.25);
-    MathApp.squareRoot(9);
-    MathApp.distanceFinder(5, 10, 85, 50);
-    MathApp.absoluteValue(-3.8);
+    MathApp.maxFinder( 50, 49 );
+    MathApp.minFinder( 49, 50 );
+    MathApp.circleArea( 7.25 );
+    MathApp.squareRoot( 9 );
+    MathApp.distanceFinder( 5, 10, 85, 50 );
+    MathApp.absoluteValue( -3.8 );
     MathApp.random0To1();
   }
 
