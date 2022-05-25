@@ -10,31 +10,31 @@ public class MathApp {
   }
 
   private static void maxFinder(double job1Salary, double job2Salary) {
-    System.out.println(Math.max(job1Salary, job2Salary));
+    System.out.println( Math.max(job1Salary, job2Salary));
   }
 
   private static void minFinder(double carPrice, double truckPrice) {
-    System.out.println(Math.min(carPrice, truckPrice));
+    System.out.println( Math.min(carPrice, truckPrice));
   }
-  
+
   private static void circleArea(double radius) {
     System.out.println(radius * radius * Math.PI);
   }
 
   private static void squareRoot(double num1) {
-    System.out.println(Math.sqrt(num1));
+    System.out.println( Math.sqrt(num1));
   }
-  
+
   private static void distanceFinder(double x1, double y1, double x2, double y2) {
-    System.out.println(Math.hypot(x1-x2, y1-y2));
+    System.out.println( Math.hypot(x1 - x2, y1 - y2));
   }
-  
+
   private static void absoluteValue(double num2) {
-    System.out.println(Math.abs(num2));
+    System.out.println( Math.abs(num2));
   }
-  
+
   private static void random0To1() {
-    System.out.println(Math.random());
+    System.out.println( Math.random());
   }
-  
+
 }
